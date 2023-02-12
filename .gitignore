@@ -1,0 +1,17 @@
+vdocdb
+vdocuploads
+vdrone
+vnexus
+vgitea
+vgiteadb
+vwiki-db
+vghost
+vth-api-file-upload
+
+*.log
+vnginx/*
+!vnginx/htpasswd
+!vnginx/nginx
+vnginx/nginx/*
+!vnginx/nginx/nginx.conf
+!vnginx/nginx/site-confs
