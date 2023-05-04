@@ -42,4 +42,9 @@ server {
       set $endpoint http://portfolio-site;
       proxy_pass $endpoint$request_uri;
   }
+
+  location /stats {
+      set $endpoint http://pf-api;
+      proxy_pass $endpoint$request_uri;
+  }
 }
